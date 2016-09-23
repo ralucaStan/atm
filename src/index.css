@@ -1,0 +1,26 @@
+.App {
+  position: relative;
+
+  width: 560px;
+  height:420px;
+
+  padding: 20px;
+
+  text-align: center;
+  border: 1px solid #eee;
+  margin: 100px auto;
+}
+
+/*reset some styles*/
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.page-header {
+  padding-bottom: 0;
+  margin: 5px 20px 10px;
+  border-bottom: 1px solid #eee;
+}

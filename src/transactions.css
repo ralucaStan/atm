@@ -1,0 +1,51 @@
+/*Fade up animation*/
+.fadeUp-leave {
+  opacity: 1;
+}
+
+.fadeUp-leave.fadeUp-leave-active {
+  opacity: 0;
+  transform: translate3d(0, -100%, 0);
+
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
+}
+
+/*Fade down animation*/
+.fadeDown-enter {
+  opacity: 0;
+}
+
+.fadeDown-enter.fadeDown-enter-active {
+  opacity: 1;
+}
+
+.fadeDown-leave {
+  opacity: 1;
+}
+
+.fadeDown-leave.fadeDown-leave-active {
+  opacity: 0;
+  transform: translate3d(0, 100%, 0);
+
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
+}
+
+/*Green pulsating arrow*/
+@keyframes pulseActive {
+  0%, 100% {
+    color: green;
+  }
+  50% {
+    color: lightgreen;
+  }
+}
+
+/*Yellow inactive pulsating arrow*/
+@keyframes pulse {
+  0%, 100% {
+    color: gold;
+  }
+  50% {
+    color: darkorange;
+  }
+}

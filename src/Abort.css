@@ -1,0 +1,16 @@
+.Abort-card {
+  margin-left: -10px;
+  margin-top: 20px;
+
+  font-size: 100px;
+  color: gray;
+
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+.Abort-arrow {
+  font-size: 60px;
+  cursor: pointer;
+  animation: pulseActive 3s ease infinite alternate;
+}

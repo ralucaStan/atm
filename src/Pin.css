@@ -1,0 +1,22 @@
+/*pin*/
+.Pin-input {
+  width: 100px !important;
+  height: 50px !important;
+  display: inline-block !important;
+}
+
+.Pin-inputWrap {
+  position: relative;
+  width: 100px;
+  margin: 100px auto 0;
+}
+
+.Pin-erase {
+  position: absolute;
+  left: 110%;
+  top: 10%;
+}
+
+.Pin-error {
+  color: coral;
+}

@@ -1,0 +1,6 @@
+.Processing {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
